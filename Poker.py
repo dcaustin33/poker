@@ -22,7 +22,7 @@ class deck:
         
     def deal_players(self, players = 9): #deals two cards to each of the parameterized players by popping off the deck
         players_cards = []
-        self.shuffle()#calls shuffle function no downside if it has already been shuffled
+        self.shuffle() #calls shuffle function no downside if it has already been shuffled
         for i in range(players):
             players_cards.append([self.card_deck.pop()])
         for i in range(players):
