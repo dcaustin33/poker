@@ -4,6 +4,7 @@ Has a class that can be used as a card deck and then a compare class that finds 
 Note - Two Plus Two hand evaluator is exponentially faster but in C++ and this works decently for simulation
 
 Class: deck
+
   Functions:
   
     shuffle: 
@@ -27,6 +28,7 @@ Class: deck
       
       
 Class: compare_poker
+
   Functions:
   
     flush_sort:
