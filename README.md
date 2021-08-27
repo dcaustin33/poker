@@ -5,6 +5,7 @@ Note - Two Plus Two hand evaluator is exponentially faster but in C++ and this w
 
 Class: deck
   Functions:
+  
     shuffle: 
       Takes no arguments - shuffles the deck and assigns the shuffled deck to the property card_deck. No return
       
@@ -27,6 +28,7 @@ Class: deck
       
 Class: compare_poker
   Functions:
+  
     flush_sort:
       takes arguments hand and board both in list - returns the amount of cards given sorted first by suit then by number in descending order - uses custom quicksort
     
