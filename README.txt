@@ -1,5 +1,7 @@
 # poker
 Compilation of different poker classes that can be used for simulations or anything related to poker.
+Has a class that can be used as a card deck and then a compare class that finds winners
+Note - Two Plus Two hand evaluator is exponentially faster but in C++ and this works decently for simulation
 
 Class: deck
   Functions:
